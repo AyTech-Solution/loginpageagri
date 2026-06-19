@@ -333,7 +333,7 @@ export default function App() {
                             : 'text-emerald-900 hover:bg-white/10'
                         }`}
                       >
-                        Harvest Crop (Sign In)
+                        Sign In
                       </button>
                       <button
                         type="button"
@@ -344,18 +344,18 @@ export default function App() {
                             : 'text-emerald-905 hover:bg-white/10'
                         }`}
                       >
-                        Sow Seeds (Sign Up)
+                        Sign Up
                       </button>
                     </div>
 
                     <div className="text-center mb-6">
                       <h2 className="text-xl md:text-2xl font-black text-emerald-950 leading-tight">
-                        {state.activeScreen === 'login' ? 'Cultivate Your Session' : 'Establish Your Plot'}
+                        {state.activeScreen === 'login' ? 'Join Our Farming Community' : 'Establish Your Plot'}
                       </h2>
                       <p className="text-xs text-emerald-900/60 mt-1.5 font-semibold">
                         {state.activeScreen === 'login' 
-                          ? 'Enter credentials to trigger your crop harvester.' 
-                          : 'Enter accurate records below of your farming permit.'}
+                          ? 'Create your account to get started.' 
+                          : 'Please enter the required details for your farm.'}
                       </p>
                     </div>
 
@@ -364,7 +364,7 @@ export default function App() {
                       {state.activeScreen === 'signup' && (
                         <div>
                           <label className="block text-xs font-bold text-emerald-850 uppercase tracking-wider mb-1.5 font-mono">
-                            Agriculturist Master Name
+                            Full Name
                           </label>
                           <div className="relative">
                             <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-emerald-800/60" />
@@ -373,7 +373,7 @@ export default function App() {
                               required
                               value={fullName}
                               onChange={(e) => setFullName(e.target.value)}
-                              placeholder="e.g. Maharana Pratap"
+                              placeholder="e.g. Agro & Garden Solution"
                               className="w-full pl-10 pr-4 py-2.5 bg-white/80 border border-emerald-200 rounded-xl shadow-xs focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 focus:bg-white transition-all text-sm text-emerald-950 placeholder:text-emerald-800/40 outline-none"
                             />
                           </div>
@@ -384,7 +384,7 @@ export default function App() {
                       <div>
                         <div className="flex justify-between items-center mb-1.5">
                           <label className="block text-xs font-bold text-emerald-850 uppercase tracking-wider font-mono">
-                            Registered @gmail.com
+                            Email Address
                           </label>
                           {state.isEmailValid === true && (
                             <span className="text-[10px] text-emerald-700 font-bold flex items-center gap-1 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full animate-bounce">
@@ -416,7 +416,7 @@ export default function App() {
                       <div>
                         <div className="flex justify-between items-center mb-1.5">
                           <label className="block text-xs font-bold text-emerald-850 uppercase tracking-wider font-mono">
-                            Harvest Shield (Password)
+                           Password
                           </label>
                           <span className="text-[10px] font-mono text-emerald-900 font-bold">
                             Length: {state.passwordInput.length} (Strength)
@@ -437,7 +437,7 @@ export default function App() {
                         {/* Visual progress bar of natural soil moisture */}
                         <div className="mt-2.5">
                           <div className="flex justify-between items-center text-[10px] text-emerald-900 font-semibold mb-1">
-                            <span>SOIL MOISTURE</span>
+                            <span>Password Strength</span>
                             <span className="font-mono">
                               {state.passwordStrength < 35 && '🔴 CLAY / LOW (Needs Water)'}
                               {state.passwordStrength >= 35 && state.passwordStrength < 75 && '🟡 DAMP / MEDIUM (Healthy)'}
