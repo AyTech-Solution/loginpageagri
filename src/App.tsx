@@ -429,7 +429,7 @@ export default function App() {
                             required
                             value={state.passwordInput}
                             onChange={handlePasswordChange}
-                            placeholder="At least 9 symbols for Golden Bloom"
+                            placeholder="Please enter a minimum of 9 symbols"
                             className="w-full pl-10 pr-4 py-2.5 bg-white/80 border border-emerald-200 rounded-xl shadow-xs focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 focus:bg-white transition-all text-sm text-emerald-950 placeholder:text-emerald-800/40 outline-none"
                           />
                         </div>
