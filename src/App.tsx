@@ -350,7 +350,7 @@ export default function App() {
 
                     <div className="text-center mb-6">
                       <h2 className="text-xl md:text-2xl font-black text-emerald-950 leading-tight">
-                        {state.activeScreen === 'login' ? 'Join Our Farming Community' : 'Establish Your Plot'}
+                        {state.activeScreen === 'login' ? 'Welcome to AgriPortal ' : 'Create your Account'}
                       </h2>
                       <p className="text-xs text-emerald-900/60 mt-1.5 font-semibold">
                         {state.activeScreen === 'login' 
@@ -486,7 +486,7 @@ export default function App() {
                           </>
                         ) : (
                           <>
-                            {state.activeScreen === 'login' ? 'START HARVEST' : 'PLANT NEW PLOT'}
+                            {state.activeScreen === 'login' ? 'Login' : 'Sign UP'}
                             <ArrowRight className="w-4 h-4" />
                           </>
                         )}
@@ -508,10 +508,10 @@ export default function App() {
                     </div>
 
                     <h2 className="text-2xl md:text-3xl font-extrabold text-emerald-950 tracking-tight">
-                      Bountiful Yield!
+                      Success
                     </h2>
                     <p className="text-sm text-emerald-900/80 mt-2 max-w-md leading-relaxed font-semibold">
-                      Your soil diagnostics were immaculate. The Jodhpur {state.passwordStrength >= 80 ? 'Golden' : 'Standard'} seed crops have been cleanly harvested by the automated combine!
+                      Harvest successful! Crop Quality is excellent, and soil health is optimal.
                     </p>
 
                     {/* VIRAL CALL-TO-ACTION SIGNS */}
@@ -522,7 +522,7 @@ export default function App() {
                       </div>
 
                       <p className="text-xs font-bold text-emerald-900/40 uppercase tracking-widest font-mono">
-                        Instagram Viral Badge
+                        Connect With Us
                       </p>
                       
                       <blockquote className="my-3 text-lg md:text-xl font-extrabold text-emerald-950 italic tracking-tight font-serif">
@@ -542,17 +542,17 @@ export default function App() {
                           className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 active:scale-95 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-xs transition-transform cursor-pointer"
                         >
                           <Instagram className="w-4 h-4" />
-                          <span>@creative_coder</span>
+                          <span>Follow Us</span>
                         </a>
 
                         <a
-                          href="https://facebook.com"
+                          href="https://github.com/AyTech-Solution/loginpageagri/tree/main"
                           target="_blank"
                           rel="noreferrer referrer"
                           className="flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 active:scale-95 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-xs transition-transform cursor-pointer"
                         >
                           <Facebook className="w-4 h-4" />
-                          <span>Harvest Club</span>
+                          <span>Source Code</span>
                         </a>
                       </div>
 
@@ -561,13 +561,13 @@ export default function App() {
                         <button
                           onClick={() => {
                             if (navigator.clipboard) {
-                              navigator.clipboard.writeText("https://github.com/AyTech-Solution");
+                              navigator.clipboard.writeText("Check Out Our Website:\\nhttps://agrogardensolution.com\\n\\nOur Github Profile:\\nhttps://github.com/AyTech_Solution\\n\\nFollow Us On Social Media");
                               alert("Social link copied to clipboard!");
                             }
                           }}
                           className="text-emerald-800 bg-emerald-100 hover:bg-emerald-200/80 px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-transform active:scale-95 flex items-center gap-1 leading-none cursor-pointer"
                         >
-                          <Share2 className="w-3 h-3" /> Copy Repo link
+                          <Share2 className="w-3 h-3" /> Share With Your Friends
                         </button>
                       </div>
                     </div>
@@ -578,7 +578,7 @@ export default function App() {
                       className="mt-6 text-emerald-800 hover:text-emerald-950 font-bold text-xs tracking-wider uppercase font-mono transition-all flex items-center gap-1.5 hover:underline cursor-pointer"
                     >
                       <RotateCcw className="w-3.5 h-3.5 animate-spin" style={{ animationDuration: '6s' }} />
-                      Re-Cultivate Crop Plot
+                      Begin New Session
                     </button>
                   </div>
                 )}
