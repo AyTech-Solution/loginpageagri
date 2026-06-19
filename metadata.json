@@ -1,0 +1,6 @@
+{
+  "name": "AyTech AgriPortal",
+  "description": "An interactive, agricultural-themed login page featuring CSS crop validation growth, dynamic farmer tools, and a harvester animation by AyTech.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
