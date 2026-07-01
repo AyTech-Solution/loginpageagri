@@ -31,18 +31,14 @@ Instead, please report security vulnerabilities through the proper channel:
 - **Dependency Audits:** Automated dependency tracking is used to ensure all security patches on underlying packages are kept up to date.
 
 ---
-*Thank you for helping keep AyTech Solution applications secure!*
-
----
-
 <p align="center">
-  <b>Thank you for helping keep AyTech Solution applications secure!</b>
+*Thank you for helping keep AyTech Solution applications secure!*
 </p>
-
+---
 <p align="center">
   <a href="https://instagram.com/aytech_solution" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000" alt="Instagram" />
   </a>
   <br><br>
-  <b>⚡ Engineered by AyTech Solution</b>
+  <b>Engineered by AyTech Solution</b>
 </p>
