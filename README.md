@@ -41,9 +41,7 @@
 </div>
 
 <hr style="border: 1px solid #21262d; margin: 30px 0;" />
-
 ---
-
 ## 🛠️ Environment Setup & Local Spawn
 
 ```bash
