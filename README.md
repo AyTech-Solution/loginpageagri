@@ -28,6 +28,21 @@
 | • **Framework Core:** React.js Ecosystem (JSX) <br>• **Execution Compiler:** Vite Engine (Ultra-Fast HMR) <br>• **Identity Manager:** Firebase Authentication <br>• **Layout Interface:** Advanced CSS3 Fluid Layouts <br>• **Deployment Target:** Render Cloud | <img src="https://github-readme-stats.vercel.app/api/pin/?username=AyTech-Solution&repo=loginpageagri&theme=tokyonight" width="100%"/> |
 
 ---
+<!-- FOOTER START -->
+<div align="center">
+  <h3>Distributed under the Apache License 2.0. See `LICENSE` for more information.</h3>
+<h2>
+  <a href="https://instagram.com/aytech_solution" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000" valign="middle" alt="Instagram" />
+  </a> 
+  &nbsp;&nbsp; <span style="color: #c9d1d9; font-size: 20px;">|&nbsp;&nbsp;Engineered by AyTech Solution</span>
+</h2>
+
+</div>
+
+<hr style="border: 1px solid #21262d; margin: 30px 0;" />
+
+---
 
 ## 🛠️ Environment Setup & Local Spawn
 
